@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <body>
+        <h1>this is a heading</h1>
+        <p id="demo">this is a paragraph</p>
+        <script>
+            const points = [200, 290, 10, 29, 2];
+            let text = "";
+            points.forEach(chinto);
+            document.getElementById('demo').innerHTML = text;
+
+            function chinto(value, index, array) {
+                text += value + " " + index + " " + array + " " + "<br>"
+            }
+        </script>
+    </body>
+</head>
+
+</html>
